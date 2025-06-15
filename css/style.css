@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Trocchi&display=swap');
+html{
+    font-family: Inter;
+    background-color:rgb(20, 20, 20);
+}
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 125px;
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
+.contenedor-principal{
+    margin: auto; /*Centrar DIV*/
+    margin-top: 175px; /*Espacio del Div y la parte de arriba de la pagina*/
+    width: 392px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);;
+}
+.avatar img{
+    margin: auto;
+    width: 88px;
+    height: 86px;
+    border-radius: 50%;
+}
+.avatar{
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 150px;
+    justify-items: center;
+    
+}
+.informacion{
+  text-align: center;
+  padding-top: 10px;
+}
+.nombre{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+.ubicacion{
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(197, 248, 42);
+}
+.descripcion{
+    padding-top: 1px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.redes-sociales{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.red-social{
+    display: flex;
+    justify-content: center;
+    padding: 14px 0px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.red-social:hover{
+    background-color: rgb(197, 248, 42);
+    color:black;
+}
